@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/">
+   <file>images/congrats.gif</file>
+    <file>images/vote.jpg</file>
+    <file>images/vote2.jpg</file>
+    <file>images/contestant1.jpg</file>
+    <file>images/contestant9.jpg</file>
+    <file>images/contestant6.jpg</file>
+    <file>images/contestant5.jpg</file>
+  </qresource>
+
+</RCC>

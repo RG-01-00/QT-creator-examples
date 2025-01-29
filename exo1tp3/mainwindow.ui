@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1299</width>
+    <height>849</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"> background-color: rgb(163, 193, 244);
+color: rgb(0, 0, 0); 
+font: 700 16pt &quot;Sans&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="VBoxLayout">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>230</y>
+      <width>501</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> </string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QSpinBox" name="lengthSpinBox">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>230</y>
+       <width>51</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="loginButton">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>300</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #3498DB;
+    color: white;
+    border: 1px solid #2980B9;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: #2980B9;
+    border: 1px solid #1E5A85;
+}
+
+QPushButton:pressed {
+    background-color: #1E5A85;
+    border: 1px solid #103F59;
+}</string>
+     </property>
+     <property name="text">
+      <string>se connecter</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>250</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Longueur du mot de passe</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Mot de passe</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="generateButton">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>230</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #3498DB;
+    color: white;
+    border: 1px solid #2980B9;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: #2980B9;
+    border: 1px solid #1E5A85;
+}
+
+QPushButton:pressed {
+    background-color: #1E5A85;
+    border: 1px solid #103F59;
+}</string>
+     </property>
+     <property name="text">
+      <string>generer un mot de passe</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nom d'utilisateur </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="usernameInput">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>60</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="passwordInput">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>140</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>90</y>
+      <width>531</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> 
+font: 700 29pt &quot;Sans&quot;;</string>
+    </property>
+    <property name="text">
+     <string>                        Login Page</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>661</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1299</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuWelcom_to_our_site">
+    <property name="title">
+     <string>Welcome to our site</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuWelcom_to_our_site"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
